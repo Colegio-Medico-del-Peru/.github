@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest an idea for this project
 title: ''
-labels: enhancement
+labels: api, base datos, bug
 assignees: asayesm
 type: Feature
 
@@ -17,15 +17,15 @@ type: Feature
 
 ## 🛠️ Especificaciones Técnicas
 
-### 🏗️ Base de Datos (SQL Server)
+### 🏗️ Base de Datos
 - [ ] **Tablas/Campos:** (Ej: Agregar `Email` a la tabla `Persona`)
 - [ ] **Store Procedures:** (Ej: Actualizar `sp_Persona_Insertar`)
 
-### ⚡ API & Backend (.NET)
+### ⚡ API & Backend
 - [ ] **Endpoints:** (Ej: `POST /api/socios/registrar`)
 - [ ] **Lógica de Negocio:** (Ej: Validar que el socio no sea "Renuente a pago")
 
-### 🎨 Frontend (Vue 3)
+### 🎨 Frontend
 - [ ] **Componentes:** (Ej: Crear `FormularioInscripcion.vue`)
 - [ ] **Validaciones:** (Ej: Máscara para DNI y formato de correo)
 
