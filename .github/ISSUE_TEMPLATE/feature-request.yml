@@ -6,23 +6,24 @@ body:
   - type: textarea
     id: user-story
     attributes:
-      label: ¿Cuál es la necesidad o problema?
-      description: Explica el contexto de negocio o técnico. (Ej: "Como usuario, necesito... para poder...")
+      label: "¿Cuál es la necesidad o problema?"
+      description: |
+        Explica el contexto de negocio o técnico. (Ej: "Como usuario, necesito... para poder...")
     validations:
       required: true
 
   - type: textarea
     id: solution
     attributes:
-      label: Solución propuesta
-      description: Describe de forma clara cómo te imaginas el comportamiento de esta nueva característica.
+      label: "Solución propuesta"
+      description: "Describe de forma clara cómo te imaginas el comportamiento de esta nueva característica."
     validations:
       required: true
 
   - type: dropdown
     id: priority
     attributes:
-      label: Prioridad sugerida
+      label: "Prioridad sugerida"
       options:
         - "Must Have (Crítico)"
         - "Should Have (Alta importancia)"
