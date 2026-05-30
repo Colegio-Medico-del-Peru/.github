@@ -23,7 +23,6 @@ body:
     id: priority
     attributes:
       label: Prioridad sugerida
-      multiple: false
       options:
         - "Must Have (Crítico)"
         - "Should Have (Alta importancia)"
